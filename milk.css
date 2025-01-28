@@ -1,0 +1,342 @@
+body {
+    font-family: 'times new roman', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #e6dcdc;
+    background: linear-gradient(to left, #e744a9, #7b84e3);
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #665807;
+  }
+  
+  .loading-transition {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .loading-transition.loaded {
+    opacity: 1;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .hero-image {
+    flex: 1;
+    margin-right: 0;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  header {
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #c2c2f0, #a6a6f7); 
+  }
+  
+  .underline {
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .home-link:hover + .underline {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 50px;
+    background-color: linear-gradient(#e66465, #9198e5);
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: darkblue;
+  }
+  
+  .hero img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .another-content{
+    font-weight: 200;
+  }
+  
+  .flavors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flavors h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #774300;
+  }
+  
+  .flavor-card {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .flavor-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .flavor-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .flavor-card img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  
+  .flavor-card h4,
+  .flavor-card p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .split-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    font-style: italic;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2332748829/display_1500/stock-vector-milk-tea-bubble-drink-vector-juice-cup-cartoon-illustration-ice-boba-sugar-milkshake-dessert-2332748829.jpg");
+    width: 100%;
+    height: 300px;
+  }
+  
+  .right-nav {
+    margin-left: auto;
+  }
+  
+  .right-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .right-nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+    float: right;
+  }
+  
+  .right-nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .right-nav ul li a:hover {
+    color: darkblue;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .flavors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero img {
+    width: 60%;
+    height: 450px;
+  }
+  
+  .text-content,
+  h1, h2, h3, p, li {
+    color: #0a0505;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .call-to-action h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: darkblue;
+  }
+  
+  .call-to-action p{
+    font-size: 20px;
+  }
+  
+  .call-to-action a {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .call-to-action a:hover {
+    background-color: darkblue;
+  }
+  
+  .button {
+    background-image: linear-gradient(to right, #ff9933, #ffcc99);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .navbar {
+    background-image: linear-gradient(to bottom, #c2c2f0, #a6a6f7);
+    color: #333;
+    padding: 10px 20px;
+  }
+  
+  .scoops-text {
+    background-image: linear-gradient(to right, #f08080, #ffcc99);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .explore-button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      text-align: center;
+    }
+  
+    .hero img {
+      width: 100%;
+    }
+  
+    .flavors {
+      flex-direction: column;
+    }
+  
+    .flavor-card {
+      width: 100%;
+    }
+  
+    .call-to-action a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .explore-flavors {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  .explore-flavors a {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, #c2c2f0, #a6a6f7);
+  }
+  
+  .explore-flavors a:hover {
+  background-color: darkblue;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
